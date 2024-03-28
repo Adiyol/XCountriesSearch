@@ -1,4 +1,4 @@
-.card {
+.countryCard {
     display: flex;
     border: 1px solid grey;
     flex-direction: column;
@@ -10,12 +10,12 @@
     
 }
 
-.card img {
+.countryCard img {
     display: inline-block;
     width: 150px;
     height: 150px;
 }
 
-.card p {
+.countryCard p {
     font-weight: bold;
 }
