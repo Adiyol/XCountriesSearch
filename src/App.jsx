@@ -46,7 +46,7 @@ function App() {
             <>
               {countries
                 .filter((country) => {
-                  if (country.name.common.toLowerCase().includes(searchText)) {
+                  if (country.name.common.toLowerCase().includes(searchText.toLowerCase())) {
                     return true;
                   } else {
                     return false;
