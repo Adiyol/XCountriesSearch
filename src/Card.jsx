@@ -1,9 +1,9 @@
-import styles from "./Card.module.css"
+import styles from "./Card.css"
 
 
 const Card = (props) => {
   return (
-    <div className={styles.countryCard}>
+    <div className={"countryCard"}>
         <img src={props.imgLink} alt={props.imgName}/>
         <p>{props.imgName}</p>
     </div>
